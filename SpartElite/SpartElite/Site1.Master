@@ -12,6 +12,8 @@
     <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
      <%--Fontawesome Icons CSS--%>
     <link href="font%20awesome%20icons/css/all.css" rel="stylesheet" />
+    <%--Custom Masterpage CSS--%>
+    <link href="css/master%20stylesheet.css" rel="stylesheet" />
      <%--Bootstrap js bundle--%>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -75,7 +77,31 @@
 
        <!-- Footer Placeholder-->
         <footer>
-            <p> &copy All rights reserved<a class="footerlinks" href="#" target="_blank">Spartanburg Elite</a></p>
+            <div id="footerPlace" class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p>
+                            <asp:LinkButton class="footerlinks" ID="adminLog"
+                                runat="server">Admin Portal</asp:LinkButton>
+                            <a class="footerlinks" href="#">Home</a>
+                            <a class="footerlinks" href="#">About Us</a>
+                            <a class="footerlinks" href="#">Contact Us</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p style="color:whitesmoke;">
+                            &copy All Rights Resereved
+                            <a class="footerlinks" href="#" target="_blank">
+                               Spartanburg Elite
+                            </a>
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </footer>
 
 

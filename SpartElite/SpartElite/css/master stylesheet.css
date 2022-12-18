@@ -1,0 +1,11 @@
+﻿.footerlinks{
+    color: white;
+}
+
+.footerlinks:hover{
+    color: rebeccapurple;
+}
+
+#footerPlace{
+    background-color: mediumpurple;
+}
