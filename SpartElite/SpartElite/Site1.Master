@@ -43,6 +43,10 @@
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Contact Us</a>
                             </li>
+                             <li class="nav-item active">
+                                <asp:LinkButton class="nav-link" ID="DashboardButton" runat="server" 
+                                    >Dashboard</asp:LinkButton>
+                            </li>
                         </ul>
 
                         <ul class="navbar-nav">
@@ -76,15 +80,21 @@
        </div>
 
        <!-- Footer Placeholder-->
-        <footer>
+        <footer id="footer">
             <div id="footerPlace" class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                         <p>
                             <asp:LinkButton class="footerlinks" ID="adminLog"
                                 runat="server">Admin Portal</asp:LinkButton>
+                        </p>
+                        <p>
                             <a class="footerlinks" href="#">Home</a>
+                        </p>
+                        <p>
                             <a class="footerlinks" href="#">About Us</a>
+                        </p>
+                        <p>
                             <a class="footerlinks" href="#">Contact Us</a>
                         </p>
                     </div>
@@ -103,9 +113,6 @@
 
             </div>
         </footer>
-
-
-
     </form>
 </body>
 </html>

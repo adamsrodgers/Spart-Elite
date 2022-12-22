@@ -1,5 +1,18 @@
-﻿.footerlinks{
+﻿body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+.footerlinks{
     color: white;
+    text-decoration: none !important;
 }
 
 .footerlinks:hover{
@@ -9,3 +22,5 @@
 #footerPlace{
     background-color: mediumpurple;
 }
+
+

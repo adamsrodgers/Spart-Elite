@@ -2161,6 +2161,8 @@
     <Content Include="font awesome icons\webfonts\js\v4-shims.js" />
     <Content Include="font awesome icons\webfonts\js\v4-shims.min.js" />
     <Content Include="Images\360_F_111463916_tQZVwYhLELXoJQEA1b7AKJKu4USNI5v1.jpg" />
+    <Content Include="Images\track1.jpg" />
+    <Content Include="Images\track2.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
