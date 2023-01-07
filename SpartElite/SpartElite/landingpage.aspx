@@ -5,25 +5,21 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
     <!-- First section of landing page; photo slideshow, and opening statement-->
-   <section>
+ 
            <!-- photo slideshow-->
-       <div id="slider">
-           <!-- the photos to go through during the show-->
-           <ul id="slideWrap"> 
-                <li><img src="Images/track1.jpg" width="500" height="250" alt =""></li>
-                <li><img src="Images/track2.jpg" width="500" height="250" alt=""></li>
-                <li><img src="Images/track2.jpg" width="500" height="250" alt=""></li>
-           </ul>
-           <!-- The next and previous buttons -->
-           <a id="prev" href="#">&#8810;</a>
-           <a id="next" href="#">&#8811;</a>
-           <section id ="slideCaption">
-                <p >Where Champions are made</p>
-           </section>
-       </div>
-      
-   </section>
+       
     <section>
+        <div id="slider">
+            <ul id="slideWrap"> 
+                <li><img src="Images/track1.jpg" alt=""></li>
+                <li><img src="Images/track2.jpg" alt=""></li>
+                <li><img src="Images/track1.jpg" alt=""></li>
+            </ul>
+
+        </div>
+    </section>
+  
+    <section id="section2">
        <div class="container">
            <div class="row">
                <div class="col-12">
@@ -45,6 +41,7 @@
                                 Preferred joy agreement put continual elsewhere delivered now. 
                                 Mrs exercise felicity had men speaking met. Rich deal mrs part led pure will but.
                             </p>
+                           <button>About Us</button>
                        </center>
                        </div>
                        <div class="col-md-6" id="homeAboutImage">
@@ -83,6 +80,7 @@
                                 Preferred joy agreement put continual elsewhere delivered now. 
                                 Mrs exercise felicity had men speaking met. Rich deal mrs part led pure will but.
                             </p>
+                           <button>Events</button>
                        </center>
                        </div>
                    

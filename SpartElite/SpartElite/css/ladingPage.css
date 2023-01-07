@@ -6,62 +6,40 @@
 
 #slider {
     position: relative;
-    width: 500px;
-    height: 250px;
+    width: auto;
+    height: 600px;
     overflow: hidden;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #slider ul {
-   position: relative;
-   list-style: none;
-   height: 100%;
-   width: 10000%;
-   padding: 0;
-   margin: 0;
-   transition: all 750ms ease;
-   left: 0;
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
 }
 
 #slider ul li {
-   position: relative;
-   height: 100%;
-   float: left;
-
+    position: relative;
+    height: 100%;
+    float: left;
 }
 
-
-#slider #prev, #slider #next {
-   width: 50px;
-   line-height: 50px;
-   text-align: center;
-   color: white;
-   text-decoration: none;
-   position: absolute;
-   top: 50%;
-   border-radius: 50%;
-   font-size: 2rem;
-   text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-   transform: translateY(-50%);
-   transition: all 150ms ease;
+#slider ul li img{
+    /*width: 100%;*/
+    height: 600px;
 }
 
-#slider #prev {
-   left: 10px;
-}
-
-#slider #next {
-   right: 10px;
-}
-
-#slider #prev:hover, #slider #next:hover {
-   background-color: rgba(0, 0, 0, 0.5);
-   text-shadow: 0;
-}
-
-#slideCaption{
-    position: absolute;
-   
+#section2{
+    padding: 20px;
+    height: 500px;
 }
 
