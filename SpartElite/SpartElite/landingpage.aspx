@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="landingpage.aspx.cs" Inherits="SpartElite.WebForm1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="css/ladingPage.css" rel="stylesheet" />
+    <link href="css/ladingPage.css" rel="stylesheet"/>
     <script src="Javacript%20files/slideshow.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
@@ -8,14 +8,13 @@
  
            <!-- photo slideshow-->
        
-    <section>
+    <section class="container-fluid">
         <div id="slider">
             <ul id="slideWrap"> 
-                <li><img src="Images/track1.jpg" alt=""></li>
-                <li><img src="Images/track2.jpg" alt=""></li>
-                <li><img src="Images/track1.jpg" alt=""></li>
+                <li><img class="img-responsive" src="Images/track1.jpg" alt=""></li>
+                <li><img class="img-responsive" src="Images/track2.jpg" alt=""></li>
+                <li><img class="img-responsive" src="Images/track1.jpg" alt=""></li>
             </ul>
-
         </div>
     </section>
   
@@ -24,7 +23,7 @@
            <div class="row">
                <div class="col-12">
                    <center>
-                       <h1>Spartanburg Elite</h1>
+                       <h1 style="padding-top: 10%;">Spartanburg Elite</h1>
                    </center>
                </div>
             </div>
@@ -41,7 +40,7 @@
                                 Preferred joy agreement put continual elsewhere delivered now. 
                                 Mrs exercise felicity had men speaking met. Rich deal mrs part led pure will but.
                             </p>
-                           <button>About Us</button>
+                           <button type="button" class="btn btn-lg homebutton" style="background-color:purple; color:white;">About Us</button>
                        </center>
                        </div>
                        <div class="col-md-6" id="homeAboutImage">
