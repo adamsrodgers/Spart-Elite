@@ -1,21 +1,28 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="landingpage.aspx.cs" Inherits="SpartElite.WebForm1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="css/ladingPage.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/ladingPage.css" />
     <script src="Javacript%20files/slideshow.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
     <!-- First section of landing page; photo slideshow, and opening statement-->
- 
-           <!-- photo slideshow-->
-       
-    <section class="container-fluid">
-        <div id="slider">
-            <ul id="slideWrap"> 
-                <li><img class="img-responsive" src="Images/track1.jpg" alt=""></li>
-                <li><img class="img-responsive" src="Images/track2.jpg" alt=""></li>
-                <li><img class="img-responsive" src="Images/track1.jpg" alt=""></li>
-            </ul>
+    <section class="container">
+        <div class="slider">
+            <figure>
+                <div class="slide">
+                    <img src="Images/track1.jpg" alt=""/>
+                    <p id="slideCaption">Where Champions are made</p>
+                </div>
+                <div class="slide">
+                    <img src="Images/track1.jpg" alt=""/>
+                </div>
+                <div class="slide">
+                    <img src="Images/track1.jpg" alt=""/>
+                </div>
+                
+            </figure>
+
         </div>
+
     </section>
   
     <section id="section2">

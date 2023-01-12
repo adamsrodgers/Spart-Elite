@@ -1,54 +1,43 @@
-﻿body{
-    /*margin: 10%;*/
+﻿* {
+    margin: 0;
+    padding: 0;
 }
 
-
-
-#slider {
-    position: relative;
-    width: auto;
-    height: 600px;
+.slider {
     overflow: hidden;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider figure div {
+    float: left;
+    width: 20%;
+}
+
+.slider figure img {
+    width: 100%;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#slider ul {
-    position: relative;
-    list-style: none;
-    height: 100%;
-    width: 10000%;
-    padding: 0;
-    margin: 0;
-    transition: all 750ms ease;
-    left: 0;
-}
-
-#slider ul li {
-    position: relative;
-    height: 100%;
     float: left;
 }
 
-#slider ul li img{
-    /*width: 100%;*/
-    /*height: 600px;*/
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: animate 20s infinite;
 }
 
-#section2{
-    padding: 20px;
-    height: 500px;
+#slideCaption {
+    position: fixed;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 250px;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
 }
 
-.homebutton:hover{
-    background-color: black;
-    color: purple;
-}
-
-.homeTitles{
-    padding-top: 10%;
-}
 
