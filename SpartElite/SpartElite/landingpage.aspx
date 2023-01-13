@@ -5,22 +5,34 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
     <!-- First section of landing page; photo slideshow, and opening statement-->
-    <section class="container">
+    <section>
         <div class="slider">
             <figure>
+               
                 <div class="slide">
-                    <img src="Images/track1.jpg" alt=""/>
-                    <p id="slideCaption">Where Champions are made</p>
-                </div>
-                <div class="slide">
+                    <p class="slideCaption">Where Champions are made</p>
                     <img src="Images/track1.jpg" alt=""/>
                 </div>
+
+                <div class="slide">
+                    <p class="slideCaption">Where Champions are made</p>
+                    <img src="Images/track1.jpg" alt=""/>
+                </div>
+
                 <div class="slide">
                     <img src="Images/track1.jpg" alt=""/>
                 </div>
+
+                <div class="slide">
+                    <img src="Images/track1.jpg" alt=""/>
+                </div>
+
+                <div class="slide">
+                    <img src="Images/track1.jpg" alt=""/>
+                </div>
+
                 
             </figure>
-
         </div>
 
     </section>
