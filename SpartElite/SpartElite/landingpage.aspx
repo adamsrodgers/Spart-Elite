@@ -7,15 +7,16 @@
     <!-- First section of landing page; photo slideshow, and opening statement-->
     <section>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div id="overlay" class="carousel-inner">
+            <div class="carousel-inner">
+                <h1>Spartanburg</h1>
                 <div class="carousel-item active">
-                    <img src="Images/track1.jpg" class="d-block w-100" alt="...">
+                    <img src="Images/track1.jpg" class="d-block w-100 tonedDown" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="Images/track1.jpg" class="d-block w-100" alt="...">
+                    <img src="Images/track1.jpg" class="d-block w-100 tonedDown" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="Images/track1.jpg" class="d-block w-100" alt="...">
+                    <img src="Images/track1.jpg" class="d-block w-100 tonedDown" alt="...">
                 </div>
                 
             </div>

@@ -11,3 +11,7 @@
     left: 0px;
     background: rgb(0, 0, 0, 0.3);
 }
+
+.tonedDown{
+    filter: brightness(50%);
+}
