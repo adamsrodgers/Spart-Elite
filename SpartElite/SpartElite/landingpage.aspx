@@ -6,35 +6,20 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceholder1" runat="server">
     <!-- First section of landing page; photo slideshow, and opening statement-->
     <section>
-        <div class="slider">
-            <figure>
-               
-                <div class="slide">
-                    <p class="slideCaption">Where Champions are made</p>
-                    <img src="Images/track1.jpg" alt=""/>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div id="overlay" class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/track1.jpg" class="d-block w-100" alt="...">
                 </div>
-
-                <div class="slide">
-                    <p class="slideCaption">Where Champions are made</p>
-                    <img src="Images/track1.jpg" alt=""/>
+                <div class="carousel-item">
+                    <img src="Images/track1.jpg" class="d-block w-100" alt="...">
                 </div>
-
-                <div class="slide">
-                    <img src="Images/track1.jpg" alt=""/>
+                <div class="carousel-item">
+                    <img src="Images/track1.jpg" class="d-block w-100" alt="...">
                 </div>
-
-                <div class="slide">
-                    <img src="Images/track1.jpg" alt=""/>
-                </div>
-
-                <div class="slide">
-                    <img src="Images/track1.jpg" alt=""/>
-                </div>
-
                 
-            </figure>
+            </div>
         </div>
-
     </section>
   
     <section id="section2">
