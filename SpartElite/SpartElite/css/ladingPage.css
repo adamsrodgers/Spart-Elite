@@ -15,3 +15,12 @@
 .tonedDown{
     filter: brightness(50%);
 }
+
+.section3 {
+    padding: 50%;
+}
+
+h1{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}

@@ -8,7 +8,6 @@
     <section>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <h1>Spartanburg</h1>
                 <div class="carousel-item active">
                     <img src="Images/track1.jpg" class="d-block w-100 tonedDown" alt="...">
                 </div>
@@ -28,7 +27,7 @@
            <div class="row">
                <div class="col-12">
                    <center>
-                       <h1 style="padding-top: 10%;">Spartanburg Elite</h1>
+                       <h1 style="padding-top: 10%; padding-bottom: 5%;">Spartanburg Elite</h1>
                    </center>
                </div>
             </div>
@@ -48,7 +47,7 @@
                            <button type="button" class="btn btn-lg homebutton" style="background-color:purple; color:white;">About Us</button>
                        </center>
                        </div>
-                       <div class="col-md-6" id="homeAboutImage">
+                       <div class="col-md-6" style="padding-top: 3%;">
                        <center>
                            <img src="Images/track2.jpg" />
                        </center>
@@ -57,19 +56,19 @@
                 </div>
            </div>
    </section>
-    <section>
-        <div class="container">
+    <section >
+        <div class="container" style="padding-bottom: 5%;">
             <div class="row">
                 <div class="col-12">
                     <center>
-                        <h1>Events</h1>
+                        <h1 style="padding-top: 10%; padding-bottom: 5%;">Events</h1>
                     </center>
                 </div>
             </div>
             <div class="row"> 
-                   <div class="col-md-6" id="eventsBody">
+                   <div class="col-md-6" style="padding-bottom: 3%;">
                        <center>
-                            <img src="Images/track2.jpg" />
+                          <img src="Images/track2.jpg" />  
                        </center>
                        </div>
                        <div class="col-md-6" id="eventsImage">
@@ -84,7 +83,7 @@
                                 Preferred joy agreement put continual elsewhere delivered now. 
                                 Mrs exercise felicity had men speaking met. Rich deal mrs part led pure will but.
                             </p>
-                           <button>Events</button>
+                           <button type="button" class="btn btn-lg homebutton" style="background-color:purple; color:white;">Events</button>
                        </center>
                        </div>
                    
